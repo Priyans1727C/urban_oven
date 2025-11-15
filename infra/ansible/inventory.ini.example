@@ -1,0 +1,5 @@
+[web]
+REPLACE_WITH_PUBLIC_IP ansible_user=ubuntu ansible_ssh_private_key_file=/home/youruser/.ssh/react_deploy_key
+
+# Replace REPLACE_WITH_PUBLIC_IP with the value from 'terraform output instance_public_ip'
+# Ensure the private key path points to the matching private key for the public key you uploaded via Terraform
