@@ -1,7 +1,0 @@
-# Example values for terraform variables. Copy to terraform.tfvars and edit as needed.
-aws_region = "us-east-1"
-instance_type = "t2.micro"
-# Provide an absolute path to your public key (do not use ~ in this file):
-ssh_public_key_path = "/home/youruser/.ssh/react_deploy_key.pub"
-ssh_allowed_cidr = "0.0.0.0/0"
-http_allowed_cidr = "0.0.0.0/0"
